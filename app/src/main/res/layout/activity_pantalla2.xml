@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pantalla2">
+
+    <Button
+        android:id="@+id/act_pant2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/button_onoff_indicator_on" />
+
+    <Button
+        android:id="@+id/act_pant2_btnLst"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/txt_btn_lista"
+        app:layout_constraintEnd_toEndOf="@+id/act_pant2_btn"
+        app:layout_constraintStart_toStartOf="@+id/act_pant2_btn"
+        app:layout_constraintTop_toBottomOf="@+id/act_pant2_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

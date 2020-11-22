@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RepasoCasa2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_btn_lista">Ir a lista</string>
+    <string name="txt_act_lst">Lista</string>
+</resources>
